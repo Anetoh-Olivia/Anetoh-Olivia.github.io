@@ -248,22 +248,25 @@ nav ul li a:hover::after { width: 50%; }
     flex-wrap: wrap;
     justify-content: center;
     gap: 22px;
+    max-width: 700px;
+    margin: 0 auto;
+}
 }
 
 .tool-badge {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
-    width: 86px;
+    gap: 10px;
+    width: 120px;
 }
 
 .tool-badge img {
-    width: 52px;
-    height: 52px;
+    width: 78px;
+    height: 78px;
     border-radius: 50%;
     background: var(--white-color);
-    padding: 11px;
+    padding: 15px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.1);
     object-fit: contain;
 }
@@ -278,8 +281,9 @@ nav ul li a:hover::after { width: 50%; }
     justify-content: center;
 }
 .tool-badge-text span {
-    width: 52px;
-    height: 52px;
+    width: 78px;
+    height: 78px;
+    font-size: 0.78rem;
     border-radius: 50%;
     background: var(--primary-color);
     color: var(--white-color);
